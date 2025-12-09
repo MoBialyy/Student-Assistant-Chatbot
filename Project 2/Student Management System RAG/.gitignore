@@ -1,0 +1,41 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# API Keys (NEVER commit these)
+credentials.json
+users.json
+
+# Vector Store (will be regenerated)
+.chroma_v7/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+ragvenv311/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+*.cache/
+
+# Temporary files
+*.tmp
+*.log
